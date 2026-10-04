@@ -1,4 +1,3 @@
-```markdown
 # 🤖 Discord Bot Registration System
 
 Sistem registrasi dan verifikasi member berbasis Discord Bot yang dibangun dengan **Laravel 12 + DiscordPHP**.
