@@ -34,5 +34,11 @@ return [
             'channel' => env('SLACK_BOT_USER_DEFAULT_CHANNEL'),
         ],
     ],
-
+    'discord' => [
+        'token'               => env('DISCORD_TOKEN'),
+        'client_id'           => env('DISCORD_CLIENT_ID'),
+        'guild_id'            => env('DISCORD_GUILD_ID'),
+        'register_channel_id' => env('DISCORD_REGISTER_CHANNEL_ID'),
+        'register_api_url'    => env('DISCORD_REGISTER_API_URL'),
+    ],
 ];
